@@ -1,0 +1,26 @@
+{
+  "name": "vite-svelte-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open public",
+    "build": "vite build",
+    "preview": "vite preview --open public",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "update:browserslist": "npx browserslist@latest --update-db"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.6",
+    "@tsconfig/svelte": "^5.0.2",
+    "browserslist": "^4.22.1",
+    "lightningcss": "^1.22.0",
+    "sass": "^1.69.4",
+    "svelte": "^4.2.1",
+    "svelte-check": "^3.5.2",
+    "tailwindcss": "^3.3.3",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
