@@ -1,1 +1,10 @@
-/* Add your code */
+.view-panel {
+  position: relative;
+  width: 100%;
+  background: #eee;
+}
+.view-panel #view-deck {
+  position: relative;
+  width: 100% !important;
+  height: auto;
+}/*# sourceMappingURL=app.css.map */

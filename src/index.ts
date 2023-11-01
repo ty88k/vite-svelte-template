@@ -1,8 +1,6 @@
-import '../scss/app.css'
-import App from './App.svelte'
+import "../scss/app.scss";
+import { PresentationSlider } from "./PresentationSlider";
 
-const app = new App({
-  target: document.getElementById('app'),
-})
-
-export default app
+var v = new PresentationSlider("app");
+v.run();
+// console.log(v);
