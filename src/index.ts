@@ -1,6 +1,11 @@
 import "../scss/app.scss";
-import { PresentationSlider } from "./PresentationSlider";
+import App from "./App.svelte";
 
-var v = new PresentationSlider("app");
-v.run();
-// console.log(v);
+const app = new App({
+  target: document.getElementById("app")!,
+  props: {
+    name: "John"
+  },
+});
+
+export default app;
